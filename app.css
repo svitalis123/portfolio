@@ -1,0 +1,192 @@
+/*
+  set everything to box sizing border box remove the margins and padding
+*/
+* {
+  box-sizing: border-box;
+}
+
+html body * {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background: #e5e5e5;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+styling the header component
+*/
+
+.head {
+  height: 48px;
+  width: 100%;
+  align-items: center;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 2rem;
+  width: 114px;
+  height: 48px;
+}
+
+.head_heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352f;
+}
+
+.head_icon_holder {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #28352f;
+}
+
+/*
+  main section styling
+*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./assets/main/arrowsdesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.main_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+}
+
+.main_article_heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.main_article_heading > u {
+  color: #36b37e;
+  text-decoration: none;
+}
+
+.main_article_paragraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #172b4d;
+  line-height: 28px;
+}
+
+/*
+  nav styling
+*/
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links > ul {
+  list-style: none;
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.links > ul > li {
+  font-size: large;
+  color: #505f79;
+}
+
+/*
+  figures images
+*/
+
+.figure1 {
+  position: absolute;
+  left: 82.05%;
+  top: 11.4%;
+}
+
+.figure1 > img {
+  width: 100%;
+}
+
+.figure2 {
+  position: absolute;
+  left: 2%;
+  top: 31%;
+  filter: opacity(0.5);
+}
+
+.figure2 > img {
+  width: 100%;
+}
+
+.figure3 {
+  position: absolute;
+  top: 43.28%;
+  right: 0%;
+}
+
+.figure3 > img {
+  width: 100%;
+}
+
+.figure4 {
+  position: absolute;
+  left: 0%;
+  top: 86%;
+}
+
+.figure4 > img {
+  width: 100%;
+}
+
+.figure5 {
+  position: absolute;
+  left: 38.07%;
+  top: 90%;
+}
+
+.figure5 > img {
+  width: 100%;
+}
