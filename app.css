@@ -118,12 +118,6 @@ styling the header component
 */
 
 .links {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.links {
   list-style: none;
   display: flex;
   width: 170.17px;
@@ -131,7 +125,7 @@ styling the header component
   justify-content: space-between;
 }
 
-.links > ul > li {
+.links > li {
   font-size: large;
   color: #505f79;
 }
