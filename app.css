@@ -12,7 +12,7 @@ html body * {
 
 body {
   background: #fff;
-  width: 100%;
+  width: 375px;
   height: 100%;
 }
 
@@ -76,7 +76,6 @@ styling the header component
   background-position: center;
   background-size: cover;
   background-origin: border-box;
-  height: 100vh;
   width: 100%;
 }
 
@@ -165,7 +164,7 @@ styling the header component
 .figure4 {
   position: absolute;
   left: 0%;
-  top: 86%;
+  top: 56%;
   width: 100%;
   height: 10%;
   background: url(./assets/main/workingfour.png) no-repeat;
@@ -174,7 +173,7 @@ styling the header component
 .figure5 {
   position: absolute;
   left: 38.07%;
-  top: 90%;
+  top: 60%;
   width: 100%;
   height: 10%;
   background: url(./assets/main/workingfive.png) no-repeat;
@@ -182,9 +181,9 @@ styling the header component
 
 .figure6 {
   position: absolute;
-  top: 100%;
   width: 100%;
   height: 10%;
+  bottom: 25%;
   background: url(./assets/main/workingsix.png) 100% 100% no-repeat;
 }
 
@@ -212,7 +211,6 @@ styling the header component
 .work {
   height: 100%;
   width: 100%;
-  margin-top: 2rem;
 }
 
 .work_header {
@@ -225,7 +223,7 @@ styling the header component
   align-items: center;
 }
 
-.work_header > h1 {
+.work_header > h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -276,7 +274,7 @@ styling the header component
   flex-direction: column;
 }
 
-.details > h1 {
+.details > h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -397,10 +395,15 @@ styling the header component
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .main_buttons:hover {
-  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.main_buttons:focus, .main_buttons:active {
+  background: #008552;
 }
 
 /*
@@ -408,7 +411,7 @@ styling the header component
 */
 
 .aboutme {
-  width: 100%;
+  width: 375px;
   height: 100%;
   background: #fff;
 }
@@ -424,7 +427,7 @@ styling the header component
   margin: 61px 12px;
 }
 
-.aboutme_header > h1 {
+.aboutme_header > h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -445,8 +448,8 @@ styling the header component
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  height: 189px;
-  width: 100%;
+  height: 209px;
+  width: 80%;
 }
 
 .aboutme_header > button {
@@ -454,9 +457,9 @@ styling the header component
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 12px 5px;
   gap: 10px;
-  width: 210px;
+  width: 150px;
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
@@ -471,12 +474,16 @@ styling the header component
 }
 
 .aboutme_header > button:hover {
-  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.aboutme_header > button:focus, .aboutme_header > button:active {
+  background: #008552;
 }
 
 .figure7 {
   position: absolute;
-  top: 667%;
+  top: 422%;
   width: 100%;
   height: 10%;
   background: url(./assets/main/workingseven.png) 100% 0% no-repeat;
@@ -485,7 +492,7 @@ styling the header component
 .figure8 {
   position: absolute;
   left: -1%;
-  top: 720%;
+  top: 453%;
   width: 100%;
   height: 10%;
   background: url(./assets/main/workingeight.png) no-repeat;
@@ -508,7 +515,7 @@ styling the header component
   justify-content: center;
 }
 
-.categories > h1 {
+.categories > h2 {
   height: 32px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -520,11 +527,11 @@ styling the header component
   padding: 64px 1px 24px 1px;
 }
 
-.framework > h1 {
+.framework > h2 {
   margin-bottom: 20px;
 }
 
-.skill > h1 {
+.skill > h2 {
   margin-bottom: 20px;
 }
 
