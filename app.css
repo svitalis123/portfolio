@@ -399,10 +399,11 @@ styling the header component
 }
 
 .main_buttons:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.main_buttons:focus, .main_buttons:active {
+.main_buttons:focus,
+.main_buttons:active {
   background: #008552;
 }
 
@@ -474,10 +475,11 @@ styling the header component
 }
 
 .aboutme_header > button:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.aboutme_header > button:focus, .aboutme_header > button:active {
+.aboutme_header > button:focus,
+.aboutme_header > button:active {
   background: #008552;
 }
 
