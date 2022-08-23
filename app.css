@@ -296,6 +296,10 @@ styling the header component
   list-style: none;
 }
 
+.form_links > li {
+  color: #505f79;
+}
+
 .categories > ul > li {
   margin: 24px 4px;
 }
@@ -747,4 +751,133 @@ styling the header component
   flex-wrap: wrap;
   width: 320;
   justify-content: center;
+}
+
+.reach_out {
+  height: 363px;
+  width: 327px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+/*
+  form styling
+*/
+
+.contact {
+  height: 879px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  position: relative;
+}
+
+.figure10 {
+  position: absolute;
+  background: url(./assets/form/formstyle.png) 100% 0% no-repeat;
+  background-size: contain;
+  height: 100px;
+  bottom: 4%;
+  width: 100px;
+  right: 1px;
+}
+
+.contact_form {
+  display: flex;
+  order: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 330px;
+  margin: auto;
+  padding-top: 58px;
+}
+
+.form_fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  border: none;
+}
+
+#form_email {
+  width: 100%;
+  padding: 16px 15px;
+  color: #6b778c;
+}
+
+#form_email::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+#form_message {
+  width: 100%;
+  height: 114px;
+  padding: 12px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  outline: none;
+}
+
+#form_message:hover,
+#form_message:focus {
+  border: 2px solid #60c095;
+}
+
+#form_button {
+  width: 129px;
+  height: 48px;
+  margin: auto;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+#form_button:hover {
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+#form_button:focus,
+#form_button:active {
+  background: #008552;
+}
+
+.form_links {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  order: 2;
+  margin: auto;
+  padding-top: 44px;
+  list-style: none;
 }
