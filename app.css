@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 
-html body * {
+html,
+body,
+* {
   padding: 0%;
   margin: 0%;
 }
@@ -22,7 +24,7 @@ styling the header component
 
 .head {
   height: 48px;
-  width: 100%;
+  width: 375px;
   align-items: center;
   bottom: 0%;
   display: flex;
@@ -76,7 +78,8 @@ styling the header component
   background-position: center;
   background-size: cover;
   background-origin: border-box;
-  width: 100%;
+  width: 375px;
+  position: relative;
 }
 
 .main_article {
@@ -137,7 +140,7 @@ styling the header component
   position: absolute;
   left: 82.05%;
   top: 10.4%;
-  width: 100%;
+  width: 100px;
   height: 25%;
   background: url(./assets/main/workingone.png) no-repeat;
 }
@@ -210,7 +213,7 @@ styling the header component
 
 .work {
   height: 100%;
-  width: 100%;
+  width: 375px;
 }
 
 .work_header {
@@ -294,6 +297,10 @@ styling the header component
   width: 305px;
   height: 32px;
   list-style: none;
+}
+
+.form_links > li {
+  color: #505f79;
 }
 
 .categories > ul > li {
@@ -423,7 +430,6 @@ styling the header component
   align-items: center;
   justify-content: center;
   gap: 24px;
-  width: 100%;
   height: 333px;
   margin: 61px 12px;
 }
@@ -525,7 +531,6 @@ styling the header component
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .languages > ul > li:nth-child(1) {
@@ -747,4 +752,126 @@ styling the header component
   flex-wrap: wrap;
   width: 320;
   justify-content: center;
+}
+
+.reach_out {
+  height: 363px;
+  width: 327px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+/*
+  form styling
+*/
+
+.contact {
+  height: 879px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  position: relative;
+}
+
+.contact_form {
+  display: flex;
+  order: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 350px;
+  margin: auto;
+  padding-top: 58px;
+}
+
+.form_fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  border: none;
+}
+
+#form_email,
+#form_name {
+  width: 100%;
+  height: 48px;
+  padding: 16px 15px;
+  color: #6b778c;
+}
+
+#form_name::placeholder,
+#form_email::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+#form_message {
+  width: 100%;
+  height: 114px;
+  padding: 12px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  outline: none;
+}
+
+#form_message:hover,
+#form_message:focus {
+  border: 2px solid #60c095;
+}
+
+#form_button {
+  width: 129px;
+  height: 48px;
+  margin: auto;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+#form_button:hover {
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+#form_button:focus,
+#form_button:active {
+  background: #008552;
+}
+
+.form_links {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  order: 2;
+  margin: auto;
+  padding-top: 44px;
+  list-style: none;
 }
