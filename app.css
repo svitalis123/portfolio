@@ -809,12 +809,14 @@ styling the header component
   border: none;
 }
 
+#form-name,
 #form_email {
   width: 100%;
   padding: 16px 15px;
   color: #6b778c;
 }
 
+#form-name::placeholder,
 #form_email::placeholder {
   font-family: 'Inter', sans-serif;
   font-style: normal;
