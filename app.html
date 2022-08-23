@@ -250,8 +250,9 @@
     </article>
     <form action="/contact" method="post" class="contact_form">
       <fieldset class="form_fieldset">
-        <input type="email" value="" name="user_email" placeholder="Email address" id="form_email" required>
-        <textarea name="message" id="form_message" placeholder="Enter text here" cols="30" rows="10"></textarea>
+        <input type="text" value="" name="user_name" placeholder="User name" maxlength="30" id="form_name" required>
+        <input type="email" value="" name="user_email" placeholder="Email address" maxlength="30" id="form_email" required>
+        <textarea name="message" id="form_message" placeholder="Enter text here" cols="30" rows="10" maxlength="500" required></textarea>
         <button type="submit" id="form_button">
           Get in touch
         </button>
@@ -264,7 +265,6 @@
       <li><i class="fa fa-github"></i></li>
       <li><i class="fa fa-angellist"></i></li>
     </ul>
-    <figure class="figure10"></figure>
   </section>
 </body>
 </html>

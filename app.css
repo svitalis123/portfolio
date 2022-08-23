@@ -22,7 +22,7 @@ styling the header component
 
 .head {
   height: 48px;
-  width: 100%;
+  width: 375px;
   align-items: center;
   bottom: 0%;
   display: flex;
@@ -76,7 +76,8 @@ styling the header component
   background-position: center;
   background-size: cover;
   background-origin: border-box;
-  width: 100%;
+  width: 375px;
+  position: relative;
 }
 
 .main_article {
@@ -137,7 +138,7 @@ styling the header component
   position: absolute;
   left: 82.05%;
   top: 10.4%;
-  width: 100%;
+  width: 100px;
   height: 25%;
   background: url(./assets/main/workingone.png) no-repeat;
 }
@@ -210,7 +211,7 @@ styling the header component
 
 .work {
   height: 100%;
-  width: 100%;
+  width: 375px;
 }
 
 .work_header {
@@ -427,7 +428,6 @@ styling the header component
   align-items: center;
   justify-content: center;
   gap: 24px;
-  width: 100%;
   height: 333px;
   margin: 61px 12px;
 }
@@ -529,7 +529,6 @@ styling the header component
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .languages > ul > li:nth-child(1) {
@@ -779,16 +778,6 @@ styling the header component
   position: relative;
 }
 
-.figure10 {
-  position: absolute;
-  background: url(./assets/form/formstyle.png) 100% 0% no-repeat;
-  background-size: contain;
-  height: 100px;
-  bottom: 4%;
-  width: 100px;
-  right: 1px;
-}
-
 .contact_form {
   display: flex;
   order: 1;
@@ -809,12 +798,14 @@ styling the header component
   border: none;
 }
 
-#form_email {
+#form_email,
+#form_name {
   width: 100%;
   padding: 16px 15px;
   color: #6b778c;
 }
 
+#form_name::placeholder,
 #form_email::placeholder {
   font-family: 'Inter', sans-serif;
   font-style: normal;
