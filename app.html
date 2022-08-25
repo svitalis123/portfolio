@@ -15,7 +15,7 @@
      <link rel="stylesheet" href="./app.css">
      <!-- 
       downloaded inter font from google font this is the link
-      -->
+  b    -->
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,20 +26,18 @@
     <nav class="head_icon_holder">
       <i class="fa fa-bars icon"></i>
     </nav>
-  </header>    
+  </header>
+  <!-- 
+    desktop header html
+  -->
+  <header class="head_desktop">
+    <nav class="head_desktop_nav">
+      <a href="#Portfolio">Portfolio</a>
+      <a href="#About">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
   <section class="main">
-    <figure class="figure1">
-    </figure>
-    <figure class="figure2">
-    </figure>
-    <figure class="figure3">
-    </figure>
-    <figure class="figure4">
-    </figure>
-    <figure class="figure5">
-    </figure>
-    <figure class="figure6">
-    </figure>
     <article class="main_article">
         <h1 class="main_article_heading">
           Hey there. I’m Mariane
@@ -63,7 +61,7 @@
         <i class="fa fa-angle-down"></i>
       </nav>
   </section>
-  <main class="work">
+  <main class="work" id="Portfolio">
     <hgroup class="work_header">
       <h2>
         My Recent Works
@@ -185,7 +183,7 @@
       </section>
     </section>
   </main>
-  <section class="aboutme">
+  <section class="aboutme" id="About">
     <article class="aboutme_header">
       <h2>
         About me
@@ -193,7 +191,7 @@
       <p>
         I can help you build a product , 
         feature or website Look through some of my work and experience!
-         If you like what you see and have a project you need coded, 
+        If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.
       </p>
       <button type="button">
@@ -241,16 +239,16 @@
       </section>
     </section>
   </section>
-  <section class="contact">
+  <section class="contact" id="contact">
     <article class="reach_out">
       <p>
         I'm always interested in hearing about new projects,
-         so if you'd like to chat please get in touch.
+        so if you'd like to chat please get in touch.
       </p> 
     </article>
     <form action="https://formspree.io/f/xwkzpleb" method="post" class="contact_form">
       <fieldset class="form_fieldset">
-        <input type="text" value="" name="user_name" placeholder="User name" maxlength="30" id="form_name" required>
+        <input type="text" value="" name="user_name" placeholder="Full name" maxlength="30" id="form_name" required>
         <input type="email" value="" name="user_email" placeholder="Email address" maxlength="30" id="form_email" required>
         <textarea name="message" id="form_message" placeholder="Enter text here" cols="30" rows="10" maxlength="500" required></textarea>
         <button type="submit" id="form_button">
@@ -266,5 +264,15 @@
       <li><i class="fa fa-angellist"></i></li>
     </ul>
   </section>
-</body>
+  <footer>
+    <div class="line"></div>
+    <ul class="form_links_desktop">
+      <li><i class="fa fa-twitter"></i></li>
+      <li><i class="fa fa-linkedin"></i></li>
+      <li><i class="fa fa-medium"></i></li>
+      <li><i class="fa fa-github"></i></li>
+      <li><i class="fa fa-angellist"></i></li>
+    </ul>
+  </footer>
+  </body>
 </html>
