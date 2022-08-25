@@ -156,6 +156,16 @@ styling the header component
   justify-content: center;
   font-size: large;
   margin-top: 8%;
+  cursor: pointer;
+  transition: width 0.3s, height 0.3s, background 0.3s, color 0.3s;
+  transition-timing-function: ease;
+}
+
+.arrow_down:hover {
+  width: 28px;
+  height: 24px;
+  background: #000;
+  color: #fff;
 }
 
 /*
@@ -354,10 +364,14 @@ styling the header component
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  transition-property: background, box-shadow;
+  transition-duration: 0.2s, 0.5s;
+  transition-timing-function: ease;
 }
 
 .main_buttons:hover {
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #111;
 }
 
 .main_buttons:focus,
@@ -429,10 +443,13 @@ styling the header component
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
+  transition: background 0.2s ease, box-shadow 0.5s ease;
+  cursor: pointer;
 }
 
 .aboutme_header > button:hover {
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #000;
 }
 
 .aboutme_header > button:focus,
@@ -803,12 +820,15 @@ styling the header component
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  cursor: pointer;
   letter-spacing: 0.03em;
   color: #fff;
+  transition: background 0.2s ease, box-shadow 0.5s ease;
 }
 
 #form_button:hover {
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #000;
 }
 
 #form_button:focus,
@@ -867,6 +887,11 @@ styling the header component
     color: #344563;
   }
 
+  .head_desktop_nav > a:hover {
+    text-decoration: underline;
+    transition: text-decoration 2s ease-in-out 2s;
+  }
+
   .main {
     width: 100%;
     background: url(./assets/main/desktopfig.svg) 40% 50% no-repeat;
@@ -893,13 +918,11 @@ styling the header component
     margin-top: 74px;
   }
 
-  .figure1,
-  .figure2,
-  .figure3,
-  .figure4,
-  .figure5,
-  .figure6 {
-    display: none;
+  .arrow_down:hover {
+    width: 43px;
+    height: 43px;
+    background: #000;
+    color: #fff;
   }
 
   .work {
