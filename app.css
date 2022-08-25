@@ -365,10 +365,9 @@ styling the header component
   line-height: 24px;
   cursor: pointer;
   transition-property: background, box-shadow;
-  transition-duration: 0.2s, .5s;
+  transition-duration: 0.2s, 0.5s;
   transition-timing-function: ease;
 }
-
 
 .main_buttons:hover {
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
