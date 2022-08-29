@@ -11,8 +11,6 @@ build the first 2 sections of the mobile website.
 
 HTML&CSS
 
-## Live demo
-- https://svitalis123.github.io/portfolio/app
 
 ## Getting Started
 
