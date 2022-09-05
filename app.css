@@ -141,6 +141,52 @@ styling the header component
   color: #505f79;
 }
 
+.menu_holder {
+  z-index: 1;
+  background: #fff;
+  display: none;
+  height: 755px;
+  width: 375px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+.menu_holder_display {
+  display: block;
+}
+
+#close {
+  transition: background-color ease 0.3s, color ease 0.3s, border-radius ease 0.3s;
+}
+
+#close:hover {
+  background-color: #111;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.menu_holder > i {
+  float: right;
+  padding: 10px;
+  margin-right: 1rem;
+  color: #67798e;
+  font-size: x-large;
+}
+
+.menu_links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 96px 24px;
+}
+
 /*
   arrow down styling
 */
@@ -249,19 +295,12 @@ styling the header component
   margin: 16px;
 }
 
-.details > ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  order: 1;
-  width: 305px;
-  height: 32px;
-  list-style: none;
-}
-
 .form_links > li {
   color: #505f79;
+}
+
+.menu_links > li {
+  transition: text-decoration ease-in-out 0.3s;
 }
 
 .categories > ul > li {
@@ -274,6 +313,27 @@ styling the header component
 
 .framework > ul > li {
   margin: 4px 4px;
+}
+
+.menu_links > li > a {
+  color: #3a4a42;
+  text-decoration: none;
+}
+
+.menu_links > li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.details > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  order: 1;
+  width: 305px;
+  height: 32px;
+  list-style: none;
 }
 
 .details > ul > li:nth-child(1) {
@@ -718,7 +778,7 @@ styling the header component
 
 .skill > ul {
   flex-wrap: wrap;
-  width: 320;
+  width: 320px;
   justify-content: center;
 }
 
