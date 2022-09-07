@@ -304,16 +304,27 @@ styling the header component
     display: none;
     position: fixed;
     overflow-y: scroll;
-    left: 16%;
-    right: auto;
+    left: 1px;
     top: 1px;
-    width: 920px;
-    height: 1083px;
+    width: 1440px;
+    height: 1990px;
     z-index: 2;
+    padding: 120px 260px;
+    background: #c1c7d0;
+    border-radius: 8px;
+  }
+
+  #project1amend1desc2{
+    width: 920px;
     padding: 16px;
     background-color: #fff;
+    position: relative;
+    margin: auto;
     border: 1px solid #111;
+    height: 1083px;
     border-radius: 8px;
+    border: 1px solid #ebecf0;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .projects {
