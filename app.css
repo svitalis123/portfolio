@@ -279,10 +279,12 @@ styling the header component
 
 .details_ammend {
   display: none;
-  position: absolute;
-  left: -1px;
+  position: fixed;
+  left: auto;
   top: 1px;
+  right: auto;
   width: 343px;
+  overflow-y: scroll;
   height: 836px;
   z-index: 1;
   padding: 16px;
@@ -300,8 +302,10 @@ styling the header component
 
   .details_ammenddesc {
     display: none;
-    position: absolute;
-    left: 10%;
+    position: fixed;
+    overflow-y: scroll;
+    left: 16%;
+    right: auto;
     top: 1px;
     width: 920px;
     height: 1083px;
@@ -323,6 +327,10 @@ styling the header component
 
 @media only screen and (max-width: 920px) {
   .details_ammenddescreverse {
+    display: none;
+  }
+
+  .details_ammenddesc {
     display: none;
   }
 }
