@@ -908,6 +908,7 @@ styling the header component
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
   width: 327px;
   border: none;
@@ -955,7 +956,8 @@ styling the header component
 
 #form_button {
   width: 129px;
-  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
   margin: auto;
   background: #36b37f;
   border-radius: 4px;
@@ -978,7 +980,6 @@ styling the header component
 
 #form_button:focus,
 #form_button:active {
-  margin-top: 200px;
   background: #008552;
 }
 
@@ -995,6 +996,24 @@ styling the header component
 
 .form_links_desktop {
   visibility: hidden;
+}
+
+.invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+.active {
+  background: #900;
+  height: 40px;
+  width: 100%;
+  color: white;
+  letter-spacing: 1.2;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
