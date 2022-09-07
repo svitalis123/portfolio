@@ -397,6 +397,7 @@ styling the header component
 
 .menu_links > li:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .details > ul {
