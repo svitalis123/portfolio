@@ -76,7 +76,11 @@
         My Recent Works
       </h2>
     </hgroup>
-    <div class="work_body">
+    <section class="work_body">
+      <div id="project1amend1" class="details_ammend">
+      </div>
+      <div id="project1amend1desc" class="details_ammenddesc">
+      </div>
       <div class="project_one projects">
         <figure class="projectone_figure figures">
         </figure>
@@ -91,11 +95,10 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_1 main_buttons">
+        <button type="button" class="see_project_button_1 main_buttons" onclick="getId(this.id)" id="1">
           See Project
         </button>
       </div>
-
       <div class="project_two projects">
         <figure class="projecttwo_figure figures">
         </figure>
@@ -110,7 +113,7 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_2 main_buttons">
+        <button type="button" class="see_project_button_2 main_buttons" onclick="getId(this.id)" id="2">
           See Project
         </button>
       </div>
@@ -129,7 +132,7 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_3 main_buttons">
+        <button type="button" id="3" class="see_project_button_3 main_buttons" onclick="getId(this.id)">
           See Project
         </button>
       </div>
@@ -148,7 +151,7 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_4 main_buttons">
+        <button type="button" class="see_project_button_4 main_buttons" id="4" onclick="getId(this.id)">
           See Project
         </button>
       </div>
@@ -167,7 +170,7 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_5 main_buttons">
+        <button type="button" class="see_project_button_5 main_buttons" id="5" onclick="getId(this.id)">
           See Project
         </button>
       </div>
@@ -186,7 +189,7 @@
             <li>html</li>
           </ul>
         </article>
-        <button type="button" class="see_project_button_6 main_buttons">
+        <button type="button" class="see_project_button_6 main_buttons" id="6" onclick="getId(this.id)">
           See Project
         </button>
       </div>
@@ -255,14 +258,15 @@
         so if you'd like to chat please get in touch.
       </p> 
     </article>
-    <form action="https://formspree.io/f/xwkzpleb" method="post" class="contact_form">
+    <form action="https://formspree.io/f/xwkzpleb" method="post" class="contact_form" id="form">
       <fieldset class="form_fieldset">
         <input type="text" value="" name="user_name" placeholder="Full name" maxlength="30" id="form_name" required>
-        <input type="email" value="" name="user_email" placeholder="Email address" maxlength="30" id="form_email" required>
+        <input type="email" value="" name="user_email" placeholder="Email address" maxlength="30" id="form_email" class="" required>
         <textarea name="message" id="form_message" placeholder="Enter text here" cols="30" rows="10" maxlength="500" required></textarea>
         <button type="submit" id="form_button">
           Get in touch
         </button>
+        <span id="error" class="error" aria-live="polite"></span>
       </fieldset>
     </form>
     <ul class="form_links">
@@ -283,7 +287,7 @@
       <li><i class="fa fa-angellist"></i></li>
     </ul>
   </footer>
-  <script src="./appx.js">
+  <script src="./app.js">
 
   </script>
   </body>
