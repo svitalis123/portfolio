@@ -138,22 +138,21 @@ function getId(id) {
 }
 getId();
 // validation
-const form = document.querySelector("#form");
-const error = document.querySelector("#error");
-const email = document.querySelector('#form_email')
-const regexp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-z0-9-]+)*$/;
+const form = document.querySelector('#form');
+const error = document.querySelector('#error');
+const email = document.querySelector('#form_email');
+const regexp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 form.addEventListener('submit', (event) => {
-  event.preventDefault()
+  event.preventDefault();
   const isValid = email.value.length === 0 || regexp.test(email.value);
   if (!isValid) {
-    email.className = "invalid";
-    error.textContent = " we Didn't submit your email! your email should be in lowercase. Please correct and submit";
-    error.className = "error active";
+    email.className = 'invalid';
+    error.textContent = 'we Did not submit your email! your email should be in lowercase. Please correct and submit';
+    error.className = 'error active';
   } else {
-    email.className = "valid";
-    error.textContent = "";
-    error.className = "error";
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'error';
     form.submit();
   }
-  
-})
+});
