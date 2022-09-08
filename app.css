@@ -306,7 +306,7 @@ styling the header component
     overflow-y: scroll;
     left: 1px;
     top: 1px;
-    width: 1440px;
+    width: 100vw;
     height: 1990px;
     z-index: 2;
     padding: 120px 260px;
