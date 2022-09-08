@@ -141,7 +141,7 @@ getId();
 
 const storagedata = [];
 const form = document.getElementById('form');
-function submity() {
+function submitt() {
   form.addEventListener('change', () => {
     const thedata = {
       name: document.getElementById('form_name').value,
@@ -159,5 +159,5 @@ function callData() {
   document.getElementById('form_name').value = receive[0].name;
   document.getElementById('form_message').value = receive[0].comment;
 }
-form.addEventListener('submit', submity());
+form.addEventListener('submit', submitt());
 window.addEventListener('DOMContentLoaded', callData());
