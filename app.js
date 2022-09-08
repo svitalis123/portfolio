@@ -86,7 +86,8 @@ function getId(id) {
       if (id === data[c].id) {
         const dividwe = document.querySelector('#project1amend1desc');
         dividwe.classList.toggle('details_ammenddescreverse');
-        dividwe.innerHTML = `<img src=${data[c].deskimg} style="height:616px; margin-top:78px; width:872px; position: relative;"alt="project image"/>;
+        const divi = document.querySelector('#project1amend1desc2');
+        divi.innerHTML = `<img src=${data[c].deskimg} style="height:616px; margin-top:78px; width:872px; position: relative;"alt="project image"/>;
           <div id="${data[c].id}dis" class="closexl" style="position:absolute; top:2%; right: 5%;"><i class="fa fa-close" style="float:right; padding:12px; color:#000; font-size:xx-large;" ></i></div>
           <div style="display: flex;">
           <h2 style="font-family: 'Inter', sans-serif; font-size: 32px; width: 589px; font-weight: 700; line-height:44px; color: #172b4d; padding:12px;">${data[c].head}</h2>
