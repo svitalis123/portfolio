@@ -303,7 +303,6 @@ styling the header component
   .details_ammenddesc {
     display: none;
     position: fixed;
-    overflow-y: scroll;
     left: 1px;
     top: 1px;
     width: 100vw;
@@ -316,11 +315,12 @@ styling the header component
 
   #project1amend1desc2 {
     width: 920px;
+    overflow-y: scroll;
     padding: 16px;
     background-color: #fff;
     position: relative;
     margin: auto;
-    height: 1083px;
+    height: 950px;
     border-radius: 8px;
     border: 1px solid #ebecf0;
     box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
