@@ -988,7 +988,6 @@ styling the header component
 
 #form_button:focus,
 #form_button:active {
-  margin-top: 200px;
   background: #008552;
 }
 
