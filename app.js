@@ -118,7 +118,7 @@ function getId(id) {
         const divid = document.querySelector('#project1amend1');
         divid.classList.toggle('detailsssx');
         divid.innerHTML = `
-        <img src=${data[b].img} 
+        <img src=${data[c].img} 
         style="height:220px; width:311px; position: relative; "
         alt="project image" />
         <div id=${data[b].id}  class="closexs" style="position:absolute; top:1px; right: 5px;"><i class="fa fa-close" style="float:right; padding:12px; color:white; font-size:xx-large;" ></i></div>
