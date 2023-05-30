@@ -1,11 +1,7 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Vitalis Portfolio
+My portfolio website showcases my skills, experience, and projects in a visually appealing and user-friendly manner.
 
-# Project Name
-Portfolio: setup and mobile first
-
- I did set up a new repository and prepare it for development using best practices (e.g. linters), And did
-build the first 2 sections of the mobile website.
-
+My portfolio website repository is set up and ready for development, following best practices such as using linters for code quality. I have completed the initial development of the first two sections of the mobile version of the website.
 
 ## Built With
 
@@ -54,5 +50,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
